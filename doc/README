@@ -1,0 +1,16 @@
+LazyFact - Factoring RSA moduli using crazy luck
+
+First it will try to use simple methods:
+- like trial division
+- Pollards rho
+- Shanks squares
+
+Then it goes over to just generating an insane amount of moduli in the hope that one will have a prime factor in common with the modulus you're trying to factor.
+
+
+
+	Usage
+
+$ cd src
+$ make
+$ ./lazyfact <modulus>

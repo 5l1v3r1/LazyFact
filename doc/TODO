@@ -1,0 +1,12 @@
+
+Short term
+- randomize x for Pollards rho
+- randomize k for shanks squares
+- automatically detect modulus bit size for moduli generating
+- use gnutls instead of openssl?
+
+
+Long term
+- Make it faster by utilizing GPU (CUDA)
+- Make use of multiple threads/cores
+
